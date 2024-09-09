@@ -21,4 +21,8 @@ The app includes onboarding screens to help new users get acquainted with the ap
 *Description*: Learn and grow with our interactive courses and materials.
 
 ### Onboarding Screen 3
-![Onboarding Screen 3](assets/screenshots/onboarding_screen_3.png)
+![Onboarding Screen 3]![image3](https://github.com/user-attachments/assets/835a61ca-91b2-4716-b35c-9a44412cb844)
+
+### Onboarding Screen 4![image4](https://github.com/user-attachments/assets/bacff2c7-c57e-4f34-a17c-036d7d85c369)
+
+![Onboarding Screen 4]!
