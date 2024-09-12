@@ -1,11 +1,8 @@
 import 'package:e_learning/core/utils/appColor.dart';
 import 'package:e_learning/view/screens/on%20boarding/widgets/onboarding_page_indicator.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'BottomActionButtons .dart';
 import 'buildPageView.dart';
-import 'onboardingWidget.dart';
 import 'skipbutton.dart';
 
 class OnBoardingBody extends StatefulWidget {

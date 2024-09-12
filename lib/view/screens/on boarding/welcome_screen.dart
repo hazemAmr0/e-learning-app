@@ -5,7 +5,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class WelcomeOnboardingScreen extends StatelessWidget {
-  const WelcomeOnboardingScreen({Key? key}) : super(key: key);
+  const WelcomeOnboardingScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

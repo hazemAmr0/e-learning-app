@@ -1,4 +1,7 @@
+import 'package:e_learning/core/routing/route_names.dart';
 import 'package:e_learning/core/utils/appColor.dart';
+import 'package:e_learning/view/screens/LoginAndRegister/sign_up_screen2.dart';
+import 'package:e_learning/view/screens/LoginAndRegister/signup_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -23,6 +26,7 @@ class BottomActionButtons extends StatelessWidget {
               textColor: Colors.white,
               onPressed: () {
                 // Handle sign-up logic here
+                  Navigator.pushNamed(context, Routes.signUp);
               },
             ),
             const SizedBox(width: 20),
@@ -32,6 +36,7 @@ class BottomActionButtons extends StatelessWidget {
               textColor: AppColor.brightBlue,
               borderColor: AppColor.brightBlue,
               onPressed: () {
+              Navigator.push(context,MaterialPageRoute(builder: (context)=>SignUpScreen2()));
                 // Handle login logic here
               },
             ),
