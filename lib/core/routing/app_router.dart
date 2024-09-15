@@ -1,5 +1,5 @@
-
 import 'package:e_learning/core/routing/route_names.dart';
+import 'package:e_learning/navigation_bar.dart';
 import 'package:e_learning/view/screens/LoginAndRegister/signup_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -9,12 +9,13 @@ class AppRouter {
   Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
       case Routes.onboarding:
-        return MaterialPageRoute(builder: (_) =>  const WelcomeOnboardingScreen());
-         case Routes.signUp:
         return MaterialPageRoute(
-            builder: (_) =>  SignUpScreen());
-        
-  
+            builder: (_) => const WelcomeOnboardingScreen());
+      case Routes.signUp:
+        return MaterialPageRoute(builder: (_) =>const SignUpScreen());
+      case Routes.navbar:
+        return MaterialPageRoute(builder: (_) =>  CustomNavBar());
+
       // Add other cases as needed
       default:
         // This is a fallback route in case an undefined route is navigated to.
