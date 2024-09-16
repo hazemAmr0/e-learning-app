@@ -1,13 +1,15 @@
 import 'package:e_learning/core/utils/appColor.dart';
 import 'package:e_learning/view/screens/corse/widgets/category_section.dart';
+import 'package:e_learning/view/screens/corse/widgets/choose_your_course.dart';
 import 'package:e_learning/view/screens/corse/widgets/course_card.dart';
 import 'package:e_learning/view/screens/corse/widgets/custom_app_bar.dart';
 import 'package:e_learning/view/screens/corse/widgets/custom_search_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
-class CourseScreenBody  extends StatelessWidget {
-  const CourseScreenBody ({super.key});
+import 'widgets/choose_your_course_text.dart';
+
+class CourseScreenBody extends StatelessWidget {
+  const CourseScreenBody({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -27,37 +29,30 @@ class CourseScreenBody  extends StatelessWidget {
             const CategorySection(),
             const SizedBox(height: 20),
             // Course Filter
-            Container(
-              height: 40,
-              width: double.infinity,
-              color: Colors.white,
-              child: Padding(
-                padding: const EdgeInsets.only(left: 20,right: 20),
-                child: Row(children: [
-                  Text('Choice your course',style: GoogleFonts.dmSans(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 16,
-                  )),
-                  const Spacer(),
-                Text('see all',style: GoogleFonts.poppins(
-                    fontWeight: FontWeight.w400,
-                    fontSize: 16,
-                    color: AppColor.brightBlue,
-                  )),
-                ],),
-              ),
-            ),
-            // Row(
-            //   children: [
-            //     FilterChipWidget(label: "All"),
-                
-            //     FilterChipWidget(label: "Popular"),
-               
-            //     FilterChipWidget(label: "New"),
-            //   ],
-            // ),
+            choose_your_course_text(),
             const SizedBox(height: 20),
-      
+            // Choose your course
+            const Row(
+              children: [
+                Choose_your_course(
+                  label: 'All',
+                  labelcolor: Colors.white,
+                  BackgroundColor: AppColor.brightBlue,
+                ),
+                Choose_your_course(
+                  label: 'popular',
+                  labelcolor: Colors.black,
+                  BackgroundColor: Colors.white,
+                ),
+                Choose_your_course(
+                  label: 'New',
+                  labelcolor: Colors.black,
+                  BackgroundColor: Colors.white,
+                ),
+              ],
+            ),
+            const SizedBox(height: 10),
+
             // Course List
             Expanded(
               child: ListView(
@@ -90,10 +85,6 @@ class CourseScreenBody  extends StatelessWidget {
           ],
         ),
       ),
-  
     );
   }
 }
-
-
-
