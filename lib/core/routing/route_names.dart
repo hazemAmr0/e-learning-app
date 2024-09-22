@@ -13,6 +13,8 @@ class Routes {
   static const String course = '/course';
   static const String courseDetails = '/courseDetails';
   static const String comments = '/comments';
+  static const String courseOverview = '/courseOverview';
+  static const String lessonVideo = '/lessonVideo';
 
 
 }

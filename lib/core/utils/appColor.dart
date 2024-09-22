@@ -6,5 +6,7 @@ class AppColor{
   static const Color coolGray = Color(0xFF767372); // Cool Gray
   static const Color darkCharcoal = Color(0xFF1F1F39); // Dark Charcoal
   static const Color brightBlue = Color(0xFF3787FF); // Bright Blue
- 
+  static const Color lightBlue = Color(0xFFb0d1fa);
+  static const Color lightBlue2 = Color(0xFFe4f1f8);
+
 }
