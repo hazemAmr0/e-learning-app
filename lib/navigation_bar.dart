@@ -2,6 +2,7 @@
 
 import 'package:e_learning/core/utils/appColor.dart';
 import 'package:e_learning/view/screens/corse/course_screen.dart';
+import 'package:e_learning/view/screens/my_save_course/SavedListScreen.dart';
 import 'package:flutter/material.dart';
 
 class CustomNavBar extends StatefulWidget {
@@ -17,7 +18,7 @@ class _CustomNavBarState extends State<CustomNavBar> {
     SearchScreen(),
     CourseScreen(),
     SearchScreen(),
-    MessageScreen(),
+    SavedListScreen(),    
     AccountScreen(),
   ];
 

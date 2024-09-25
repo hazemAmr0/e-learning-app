@@ -15,6 +15,9 @@ class Routes {
   static const String comments = '/comments';
   static const String courseOverview = '/courseOverview';
   static const String lessonVideo = '/lessonVideo';
+  static const String savedList = '/savedList';
+   static const String saveEmpty = '/saveEmpty';
+    
 
 
 }

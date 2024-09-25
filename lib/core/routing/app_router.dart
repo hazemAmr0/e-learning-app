@@ -6,10 +6,10 @@ import 'package:e_learning/view/screens/corse/course_screen.dart';
 import 'package:e_learning/view/screens/course_details/Course_Overview_Screen.dart';
 import 'package:e_learning/view/screens/course_details/course_details_screen.dart';
 import 'package:e_learning/view/screens/course_details/lesson_video_screen.dart';
+import 'package:e_learning/view/screens/my_save_course/SavedListScreen.dart';
+import 'package:e_learning/view/screens/my_save_course/save_empty_screen.dart';
 import 'package:flutter/material.dart';
-
 import '../../view/screens/on boarding/welcome_screen.dart';
-
 class AppRouter {
   Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
@@ -17,22 +17,24 @@ class AppRouter {
         return MaterialPageRoute(
             builder: (_) => const WelcomeOnboardingScreen());
       case Routes.signUp:
-        return MaterialPageRoute(builder: (_) =>const SignUpScreen());
+        return MaterialPageRoute(builder: (_) => const SignUpScreen());
       case Routes.navbar:
-        return MaterialPageRoute(builder: (_) =>  CustomNavBar());
-          case Routes.course:
+        return MaterialPageRoute(builder: (_) => CustomNavBar());
+      case Routes.course:
         return MaterialPageRoute(builder: (_) => const CourseScreen());
-         case Routes.courseDetails:
+      case Routes.courseDetails:
         return MaterialPageRoute(builder: (_) => const CourseDetailsScreen());
-         case Routes.comments:
+      case Routes.comments:
         return MaterialPageRoute(builder: (_) => const CommentsScreen());
-         case Routes.courseOverview:
+      case Routes.courseOverview:
         return MaterialPageRoute(builder: (_) => const CourseOverviewScreen());
-          case Routes.lessonVideo:
+      case Routes.lessonVideo:
         return MaterialPageRoute(builder: (_) => const LessonVideoScreen());
 
-
-
+      case Routes.savedList:
+        return MaterialPageRoute(builder: (_) => const SavedListScreen());
+      case Routes.saveEmpty:
+        return MaterialPageRoute(builder: (_) => SavedEmptyScreen());
 
       // Add other cases as needed
       default:

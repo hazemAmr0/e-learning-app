@@ -20,8 +20,22 @@ class MyApp extends StatelessWidget {
       ),
 
       onGenerateRoute: appRouter.generateRoute,
-      initialRoute: Routes.lessonVideo,
-      // initialRoute: Routes.lessonVideo, to test other screen //
+      initialRoute: Routes.savedList,
+      
+      /////    for testing the screens   //
+      ///initialRoute: Routes.courseOverview,
+      ///initialRoute: Routes.signUp,
+      ///initialRoute: Routes.course,
+      ///initialRoute: Routes.splash,
+      ///initialRoute: Routes.savedList,
+      ///initialRoute: Routes.saveEmpty,
+      ///initialRoute: Routes.onboarding,
+      ///initialRoute: Routes.lessonVideo,
+      // initialRoute: Routes.saveEmpty,
+      //initialRoute: Routes.navbar,
+      //initialRoute: Routes.comments,
+      //initialRoute: Routes.courseDetails,
+      //initialRoute: Routes.login,
     );
   }
 }
