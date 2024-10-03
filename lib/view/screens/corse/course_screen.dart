@@ -38,8 +38,8 @@ class CourseScreen extends StatelessWidget {
 //           });
 //         },
 //         child: Container(
-//           height: 28,
-//           width: 73,
+//          height: 28.h,
+//          width: 73.w,
 //           decoration: BoxDecoration(
 //             color: isSelected
 //                 ? Colors.white

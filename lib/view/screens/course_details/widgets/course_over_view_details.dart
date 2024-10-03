@@ -1,6 +1,7 @@
 import 'package:e_learning/core/utils/appColor.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CourseDetails extends StatelessWidget {
   const CourseDetails({Key? key}) : super(key: key);
@@ -31,8 +32,8 @@ class CourseDetails extends StatelessWidget {
                 ))
           ],
         ),
-        const SizedBox(
-          height: 5,
+         SizedBox(
+         height: 5.h,
         ),
         // Course duration and number of lessons
         Row(
@@ -43,7 +44,7 @@ class CourseDetails extends StatelessWidget {
                   fontSize: 14,
                 )),
             SizedBox(
-              width: 10,
+             width: 10.w,
             ),
             Text('24 Lessons',
                 style: TextStyle(
@@ -52,8 +53,8 @@ class CourseDetails extends StatelessWidget {
                 )),
           ],
         ),
-        const SizedBox(
-          height: 20,
+         SizedBox(
+         height: 20.h,
         ),
         // Course description title
         Text('About this course',
@@ -62,8 +63,8 @@ class CourseDetails extends StatelessWidget {
               fontSize: 16,
               color: Colors.black,
             )),
-        const SizedBox(
-          height: 10,
+         SizedBox(
+         height: 10.h,
         ),
         // Course description
         Text(

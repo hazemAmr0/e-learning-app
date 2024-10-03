@@ -1,6 +1,7 @@
 import 'package:e_learning/core/utils/appColor.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -21,7 +22,7 @@ class ResourcesForDownloadWidget extends StatelessWidget {
             ),
           ),
           SizedBox(
-            width: 10,
+           width: 10.w,
           ),
           Text(
             '2.5 MB',

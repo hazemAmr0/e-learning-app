@@ -4,6 +4,7 @@ import 'package:e_learning/core/utils/appColor.dart';
 import 'package:e_learning/view/screens/corse/course_screen.dart';
 import 'package:e_learning/view/screens/my_save_course/SavedListScreen.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CustomNavBar extends StatefulWidget {
   @override
@@ -76,8 +77,8 @@ class _CustomNavBarState extends State<CustomNavBar> {
                     MainAxisAlignment.end, // Aligns the icon to the top
                 children: [
                   Container(
-                    width: 40,
-                    height: 40,
+                   width: 40.w,
+                   height: 40.h,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(25),
                       color: AppColor.primaryColor,

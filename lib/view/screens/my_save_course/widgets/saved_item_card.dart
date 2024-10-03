@@ -1,5 +1,6 @@
 import 'package:e_learning/core/utils/appColor.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class SavedItemCard extends StatelessWidget {
   final String title;
@@ -47,8 +48,8 @@ class SavedItemCard extends StatelessWidget {
               borderRadius: BorderRadius.circular(10),
               child: Image.asset(
                 imagePath,
-                width: 80,
-                height: 92,
+               width: 80.w,
+               height: 92.h,
                 fit: BoxFit.cover,
               ),
             ),
@@ -60,10 +61,10 @@ class SavedItemCard extends StatelessWidget {
                   // The course title
                   Text(
                     title,
-                    style: const TextStyle(
+                    style:  TextStyle(
                       fontSize: 17.28,
                       fontWeight: FontWeight.w500,
-                      height: 1.3,
+                     height: 1.3.h,
                       color: AppColor.darkCharcoal,
                     ),
                   ),

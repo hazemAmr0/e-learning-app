@@ -7,6 +7,7 @@ import 'package:e_learning/view/screens/course_details/widgets/custom_descriptio
 import 'package:e_learning/view/screens/course_details/widgets/resources_for_download_widget.dart';
 import 'package:e_learning/view/screens/course_details/widgets/video_play_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'package:google_fonts/google_fonts.dart';
 
@@ -35,7 +36,7 @@ class CourseDetailsBody extends StatelessWidget {
               // TabBar Section
               TabSection(),
               SizedBox(
-                height: 70,
+               height: 70.h,
               ),
 
               //resources for download

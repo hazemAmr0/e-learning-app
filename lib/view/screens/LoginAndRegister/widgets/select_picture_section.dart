@@ -1,5 +1,6 @@
 import 'package:e_learning/core/utils/appColor.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class ProfilePictureWithEdit extends StatelessWidget {
   const ProfilePictureWithEdit({super.key});
@@ -18,8 +19,8 @@ class ProfilePictureWithEdit extends StatelessWidget {
           left: 30,
           bottom: 0,
           child: Container(
-            height: 30,
-            width: 50,
+           height: 30.h,
+           width: 50.w,
             decoration: BoxDecoration(
               color: AppColor.brightBlue,
               borderRadius: BorderRadius.circular(60),

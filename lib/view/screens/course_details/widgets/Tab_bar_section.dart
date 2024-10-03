@@ -1,5 +1,6 @@
 import 'package:e_learning/view/screens/course_details/widgets/course_card_details_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class TabSection extends StatelessWidget {
   const TabSection({super.key});
@@ -31,7 +32,7 @@ class TabSection extends StatelessWidget {
             ),
             /// The tab bar view with two children: Overview and Lessons
             Container(
-              height: 400, // Adjust height for TabBarView content
+             height: 400.h, // Adjust height for TabBarView content
               child: TabBarView(
                 children: [
                   /// The Overview tab displays a centered text

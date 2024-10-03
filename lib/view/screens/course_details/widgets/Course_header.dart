@@ -2,6 +2,7 @@ import 'package:e_learning/view/screens/course_details/widgets/BestsellerBadge.d
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CourseHeader extends StatelessWidget {
   const CourseHeader({super.key});
@@ -33,7 +34,7 @@ class CourseHeader extends StatelessWidget {
         /// SVG image on the right side of the course header
         SvgPicture.asset(
           'assets/images/Group.svg',
-          height: 200,
+         height: 200.h,
         ),
       ],
     );

@@ -5,6 +5,7 @@ import 'package:e_learning/view/screens/Courses/widgets/lesson_details.dart';
 import 'package:e_learning/view/screens/Courses/widgets/selectors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 
 class CoursesPage extends StatelessWidget {
@@ -31,7 +32,7 @@ class CoursesPage extends StatelessWidget {
             children: [
               // Topbar with menu and notification icons
               Container(
-                height: 150,
+               height: 150.h,
                 margin: EdgeInsets.all(10),
                 child: Padding(
                   padding: const EdgeInsets.all(5.0),
@@ -95,7 +96,7 @@ class BottomNavigation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 70,
+     height: 70.h,
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(30),

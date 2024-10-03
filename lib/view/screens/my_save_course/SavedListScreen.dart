@@ -2,6 +2,7 @@ import 'package:e_learning/core/utils/appColor.dart';
 import 'package:e_learning/view/screens/my_save_course/widgets/add_more_button.dart';
 import 'package:e_learning/view/screens/my_save_course/widgets/saved_item_card.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class SavedListScreen extends StatelessWidget {
   const SavedListScreen({super.key});
@@ -29,14 +30,14 @@ class SavedListScreen extends StatelessWidget {
         child: Column(
           children: <Widget>[
             /// The title of the screen
-            const Padding(
+             Padding(
               padding: EdgeInsets.only(top: 30.0, bottom: 15.0),
               child: Text(
                 'My save list',
                 style: TextStyle(
                   fontSize: 29.86,
                   fontWeight: FontWeight.w500,
-                  height: 1.3,
+                 height: 1.3.h,
                   color: AppColor.darkCharcoal,
                 ),
                 textAlign: TextAlign.center,

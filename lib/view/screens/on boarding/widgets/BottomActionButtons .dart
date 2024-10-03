@@ -3,6 +3,7 @@ import 'package:e_learning/core/utils/appColor.dart';
 import 'package:e_learning/view/screens/LoginAndRegister/sign_up_screen2.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class BottomActionButtons extends StatelessWidget {
   const BottomActionButtons({
@@ -53,8 +54,8 @@ class BottomActionButtons extends StatelessWidget {
     required VoidCallback onPressed,
   }) {
     return Container(
-      height: 50,
-      width: 140,
+     height: 50.h,
+     width: 140.w,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(40),
         color: backgroundColor,

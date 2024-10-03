@@ -2,6 +2,7 @@ import 'package:e_learning/core/routing/route_names.dart';
 import 'package:e_learning/core/utils/appColor.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CourseCard extends StatelessWidget {
   final String title;
@@ -28,7 +29,7 @@ Navigator.pushNamed(context, Routes.courseDetails);
         child: Card(
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
           child: Container(
-            height: 100,
+           height: 100.h,
             child: Row(
               children: [
                 Padding(
@@ -78,8 +79,8 @@ Navigator.pushNamed(context, Routes.courseDetails);
                         ),
                         SizedBox(width: 5),
                         Container(
-                          height: 20,
-                          width: 65,
+                         height: 20.h,
+                         width: 65.w,
                           decoration: BoxDecoration(
                             color: Colors.blue,
                             borderRadius: BorderRadius.circular(20),

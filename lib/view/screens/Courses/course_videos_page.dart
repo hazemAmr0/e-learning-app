@@ -1,6 +1,7 @@
 import 'package:e_learning/core/utils/appColor.dart';
 import 'package:e_learning/view/screens/Courses/widgets/Unlock_All_Videos_Button.dart';
 import 'package:e_learning/view/screens/Courses/widgets/header.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'package:e_learning/view/screens/Courses/widgets/selector_item.dart';
 import 'package:e_learning/view/screens/Courses/widgets/videos_list_widget.dart';
@@ -30,7 +31,7 @@ class CourseVideosPage extends StatelessWidget {
             children: [
               /// Course header
               Container(
-                height: 150,
+               height: 150.h,
                 child: Column(
                   children: [
                     Padding(
@@ -47,7 +48,7 @@ class CourseVideosPage extends StatelessWidget {
                       padding: const EdgeInsets.symmetric(
                           horizontal: 10, vertical: 5),
                       width: double.infinity,
-                      height: 50,
+                     height: 50.h,
                       decoration: const BoxDecoration(
                           color: AppColor.brightBlue,
                           borderRadius: BorderRadius.zero),
@@ -70,7 +71,7 @@ class CourseVideosPage extends StatelessWidget {
               ),
               /// Videos list and unlock all videos button
               Container(
-                height: 700,
+               height: 700.h,
                 color: AppColor.primaryColor,
                 child: Column(
                   children: [

@@ -2,6 +2,7 @@ import 'package:e_learning/core/utils/appColor.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CategoryCard extends StatelessWidget {
   final String assetName;
@@ -13,8 +14,8 @@ class CategoryCard extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(top: 16,left: 16,right: 16),
       child: SizedBox(
-        height: 90, // Height of the card area
-        width: 180, // Width of the card area
+       height: 90.h, // Height of the card area
+       width: 180.w, // Width of the card area
         child: Stack(
           clipBehavior: Clip.none, // Allow the image to overflow the bounds
           children: [
@@ -24,8 +25,8 @@ class CategoryCard extends StatelessWidget {
                 borderRadius: BorderRadius.circular(20),
                 color: AppColor.brightBlue,
               ),
-              width: 250,
-              height: 120, // Adjust height as needed
+             width: 250.w,
+             height: 120.h, // Adjust height as needed
             ),
 
             // Positioned image that is bigger and moved more to the left
@@ -35,7 +36,7 @@ class CategoryCard extends StatelessWidget {
               left: 0, // Align the image on the left
               child: SvgPicture.asset(
                 assetName,
-                height: 125, // Increase image size
+               height: 125.h, // Increase image size
               ),
             ),
 
@@ -44,7 +45,7 @@ class CategoryCard extends StatelessWidget {
               right: 0,
               top: 40,
               child: Container(
-                height: 35, // Adjust height as needed
+               height: 35.h, // Adjust height as needed
                 padding:
                     const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                 decoration: const BoxDecoration(

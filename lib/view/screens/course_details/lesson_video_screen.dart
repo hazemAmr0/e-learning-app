@@ -2,6 +2,7 @@
 import 'package:e_learning/core/utils/appColor.dart';
 import 'package:e_learning/view/screens/course_details/widgets/bottomsheet_content.dart';
 import 'package:e_learning/view/screens/course_details/widgets/buy_bottom_bar.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'package:flutter/material.dart';
 
@@ -88,7 +89,7 @@ class VideoPlayerPlaceholder extends StatelessWidget {
       width: double.infinity,
       child: Image.asset(
         'assets/images/video.png',
-        height: 300,
+       height: 300.h,
         width: double.infinity,
         fit: BoxFit.cover,
       ),

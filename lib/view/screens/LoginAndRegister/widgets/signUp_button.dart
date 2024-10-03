@@ -2,6 +2,7 @@ import 'package:e_learning/core/utils/appColor.dart';
 import 'package:e_learning/core/utils/widgets/show_succses_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class SignUpButton extends StatelessWidget {
   final GlobalKey<FormState> formKey;
@@ -23,8 +24,8 @@ final String label;
         }
       },
       child: Container(
-        height: 55,
-        width: 327,
+       height: 55.h,
+       width: 327.w,
         decoration: BoxDecoration(
           color: AppColor.brightBlue,
           borderRadius: BorderRadius.circular(30),

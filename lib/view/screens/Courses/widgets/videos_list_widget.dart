@@ -1,5 +1,6 @@
 import 'package:e_learning/core/utils/appColor.dart';
 import 'package:e_learning/view/screens/Courses/widgets/Video_Section_Header.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'package:e_learning/view/screens/Courses/widgets/video_item.dart';
 import 'package:flutter/material.dart';
@@ -57,8 +58,8 @@ class VideosListWidget extends StatelessWidget {
                 onTap: () {},
                 child: Container(
                   margin: const EdgeInsets.only(bottom: 20),
-                  width: 120,
-                  height: 35,
+                 width: 120.w,
+                 height: 35.h,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(30),
                     color: AppColor.brightBlue,

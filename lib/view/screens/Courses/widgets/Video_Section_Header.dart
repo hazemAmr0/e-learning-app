@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class VideoSectionHeader extends StatelessWidget {
   final String mainTitle;
@@ -41,8 +42,8 @@ class VideoSectionHeader extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(left: 10),
             child: Container(
-              height: 40, // adjust height as needed
-              width: 1.5, // line thickness
+             height: 40.h, // adjust height as needed
+             width: 1.5.w, // line thickness
               color: Colors.black, // line color
             ),
           ),

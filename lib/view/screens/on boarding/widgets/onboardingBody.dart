@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'BottomActionButtons .dart';
 import 'buildPageView.dart';
 import 'skipbutton.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class OnBoardingBody extends StatefulWidget {
   const OnBoardingBody({Key? key}) : super(key: key);

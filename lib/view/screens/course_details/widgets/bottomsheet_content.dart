@@ -1,6 +1,7 @@
 import 'package:e_learning/view/screens/course_details/widgets/course_over_view_details.dart';
 import 'package:e_learning/view/screens/course_details/widgets/lesson_list.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class BottomSheetContent extends StatefulWidget {
   const BottomSheetContent({super.key, required this.scrollController});
@@ -27,8 +28,8 @@ class _BottomSheetContentState extends State<BottomSheetContent> {
       children: [
         // Drag handle
         Container(
-          width: 50,
-          height: 5,
+         width: 50.w,
+         height: 5.h,
           margin: const EdgeInsets.only(top: 8, bottom: 16),
           decoration: BoxDecoration(
             color: Colors.grey[300],

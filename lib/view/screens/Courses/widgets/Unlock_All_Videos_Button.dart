@@ -1,5 +1,6 @@
 import 'package:e_learning/core/utils/appColor.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class UnlockAllVideosButton extends StatelessWidget {
   const UnlockAllVideosButton({
@@ -17,7 +18,7 @@ class UnlockAllVideosButton extends StatelessWidget {
           child: Container(
             margin: const EdgeInsets.only(bottom: 20),
             width: double.infinity,
-            height: 70,
+           height: 70.h,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(30),
               color: AppColor.brightBlue,

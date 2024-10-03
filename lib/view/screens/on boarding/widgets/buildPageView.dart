@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'onboardingWidget.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class OnboardingPageView extends StatelessWidget {
   final PageController controller;

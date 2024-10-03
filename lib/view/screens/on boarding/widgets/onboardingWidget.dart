@@ -2,6 +2,7 @@ import 'package:e_learning/core/utils/appColor.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class buildOnboardingPages extends StatelessWidget {
   final String imagePath;
@@ -20,8 +21,8 @@ class buildOnboardingPages extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             SizedBox(
-              width: 240,
-              child: SvgPicture.asset(imagePath, height: 250)), // Your image asset
+             width: 240.w,
+              child: SvgPicture.asset(imagePath,height: 250.h)), // Your image asset
             SizedBox(height: 40),
             Text(
               title,

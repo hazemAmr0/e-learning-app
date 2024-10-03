@@ -1,5 +1,6 @@
 import 'package:e_learning/view/screens/Courses/widgets/course_card.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CoursesList extends StatelessWidget {
   @override

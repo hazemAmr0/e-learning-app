@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class VideoItem extends StatelessWidget {
   final String title;
@@ -47,8 +48,8 @@ class VideoItem extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(left: 10),
             child: Container(
-              height: 20, // adjust height as needed
-              width: 1.5, // line thickness
+             height: 20.h, // adjust height as needed
+             width: 1.5.w, // line thickness
               color: Colors.black, // line color
             ),
           ),

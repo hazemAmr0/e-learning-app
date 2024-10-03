@@ -3,6 +3,7 @@ import 'package:e_learning/view/screens/on%20boarding/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class WelcomeOnboardingScreen extends StatelessWidget {
   const WelcomeOnboardingScreen({super.key});
@@ -24,7 +25,7 @@ class WelcomeOnboardingScreen extends StatelessWidget {
                 padding: const EdgeInsets.only(top: 70),
                 child: SvgPicture.asset(
                   'assets/images/onboarding4.svg',
-                  height: 200,
+                 height: 200.h,
                   alignment: Alignment.center,
                 ),
               ),
@@ -62,7 +63,7 @@ class WelcomeOnboardingScreen extends StatelessWidget {
                   // Line Image
                   SvgPicture.asset(
                     'assets/images/line1.svg',
-                    height: 100,
+                   height: 100.h,
                   ),
                 ],
               ),
@@ -84,8 +85,8 @@ class WelcomeOnboardingScreen extends StatelessWidget {
                               builder: (context) => OnBoardingView()));
                     },
                     child: Container(
-                      height: 150,
-                      width: 150,
+                     height: 150.h,
+                     width: 150.w,
                       decoration: BoxDecoration(
                         color: AppColor.brightBlue,
                         borderRadius: BorderRadius.circular(80),

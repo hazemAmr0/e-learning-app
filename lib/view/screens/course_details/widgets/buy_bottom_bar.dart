@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class BuyNowBottomBar extends StatelessWidget {
   const BuyNowBottomBar({
@@ -21,7 +22,7 @@ class BuyNowBottomBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 100,
+     height: 100.h,
       decoration: BoxDecoration(
         // Add shadow to the bottom bar
         boxShadow: [
@@ -47,8 +48,8 @@ class BuyNowBottomBar extends StatelessWidget {
         children: [
           // Favorite Button
           Container(
-            height: 50,
-            width: 80,
+           height: 50.h,
+           width: 80.w,
             decoration: BoxDecoration(
               color: Colors.white,
               shape: BoxShape.rectangle,

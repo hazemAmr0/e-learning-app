@@ -1,6 +1,7 @@
 import 'package:e_learning/core/utils/appColor.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CourseCardDetailsScreen extends StatelessWidget {
   const CourseCardDetailsScreen({
@@ -17,8 +18,8 @@ class CourseCardDetailsScreen extends StatelessWidget {
             Row(
               children: [
                 Container(
-                  height: 100,
-                  width: 150,
+                 height: 100.h,
+                 width: 150.w,
                   child: ClipRRect(
                       borderRadius: BorderRadius.circular(8),
                       child: Image.asset(
@@ -31,7 +32,7 @@ class CourseCardDetailsScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     SizedBox(
-                      width: 150,
+                     width: 150.w,
                       child: Text(
                         'Introduction to Comic Drawing',
                         style: GoogleFonts.dmSans(

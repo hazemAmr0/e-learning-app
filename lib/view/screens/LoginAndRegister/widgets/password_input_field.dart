@@ -1,5 +1,6 @@
 import 'package:e_learning/core/utils/methods/validations.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class PasswordField extends StatefulWidget {
   PasswordField({super.key, this.controller, this.focusNode});
@@ -22,7 +23,7 @@ class PasswordFieldState extends State<PasswordField> {
     return Padding(
       padding: const EdgeInsets.all(16),
       child: SizedBox(
-        height: 80,
+       height: 80.h,
         child: TextFormField(
           
           controller: widget.controller, // Ensure you define _passwordController

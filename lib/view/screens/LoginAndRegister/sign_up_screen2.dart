@@ -9,6 +9,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class SignUpScreen2 extends StatelessWidget {
   SignUpScreen2({super.key});
@@ -114,8 +115,8 @@ class SignUpScreen2 extends StatelessWidget {
                   ],
                 ),
               ),
-              const SizedBox(
-                height: 10,
+               SizedBox(
+               height: 10.h,
               ),
 
               /// The text between the form and the "or" section.

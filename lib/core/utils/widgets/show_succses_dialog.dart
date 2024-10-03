@@ -1,5 +1,6 @@
 import 'package:e_learning/core/utils/appColor.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void showdialog(BuildContext context) {
@@ -16,7 +17,7 @@ void showdialog(BuildContext context) {
           child: Padding(
             padding: const EdgeInsets.only(top: 40),
             child: SizedBox(
-              height: 280,
+             height: 280.h,
               child: Column(
                 children: [
                   Icon(Icons.check_circle_rounded,
@@ -44,8 +45,8 @@ void showdialog(BuildContext context) {
                       Navigator.pop(context);
                     },
                     child: Container(
-                      height: 55,
-                      width: 259,
+                     height: 55.h,
+                     width: 259.w,
                       decoration: BoxDecoration(
                         color: AppColor.brightBlue,
                         borderRadius: BorderRadius.circular(30),

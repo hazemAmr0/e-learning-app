@@ -1,6 +1,7 @@
 import 'package:e_learning/core/utils/appColor.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class OnboardingPageIndicator extends StatelessWidget {
   final PageController controller;

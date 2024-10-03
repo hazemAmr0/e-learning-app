@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class Sign_up_with extends StatelessWidget {
   Sign_up_with({
@@ -17,7 +18,7 @@ class Sign_up_with extends StatelessWidget {
       padding:
           const EdgeInsets.only(top: 10.0, left: 20, right: 20, bottom: 10),
       child: Container(
-        height: 50,
+       height: 50.h,
         width: double.infinity,
         decoration: BoxDecoration(
           color: backgroundColor,
@@ -30,8 +31,8 @@ class Sign_up_with extends StatelessWidget {
                   left: 20.0), // Add some padding to the left
               child: prefixIcon,
             ),
-            const SizedBox(
-                width: 30), // Add some space between the icon and the text
+             SizedBox(
+               width: 30.w), // Add some space between the icon and the text
             Expanded(
               child: Text(
                 label,

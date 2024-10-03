@@ -1,6 +1,7 @@
 import 'package:e_learning/core/utils/appColor.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CommentsSection extends StatelessWidget {
   const CommentsSection({super.key, required this.name, required this.isTeacher, required this.comment, required this.image});
@@ -47,8 +48,8 @@ final String image;
                             )),
                         const SizedBox(width: 40),
                      isTeacher?Container(
-                          height: 30,
-                          width: 70,
+                         height: 30.h,
+                         width: 70.w,
                           decoration: BoxDecoration(
                             color: AppColor.brightBlue,
                             borderRadius: BorderRadius.circular(10),
@@ -77,7 +78,7 @@ final String image;
             Padding(
               padding: const EdgeInsets.only(left: 40),
               child: SizedBox(
-                width: 300,
+               width: 300.w,
                 child: Text(
                     comment,
                     style: GoogleFonts.dmSans(
