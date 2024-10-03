@@ -6,6 +6,9 @@
 
 ## course_over_view
 
+| videos | courses |
+|:-------:|:-------:|
+| ![Image 1]![image1](https://github.com/user-attachments/assets/e80a5690-d94e-4c69-985b-5a882e03d6fd)| ![Image 2]![image2](https://github.com/user-attachments/assets/d2c2dded-d0ed-4414-8615-525fd830a71a)
 
 
 ### course_over_view  Screen 1
