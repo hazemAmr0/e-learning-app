@@ -19,9 +19,6 @@ class SignUpScreen2 extends StatelessWidget {
 
   final TextEditingController _passwordController = TextEditingController();
 
-  final FocusNode _emailFocusNode = FocusNode();
-
-  final FocusNode _passwordFocusNode = FocusNode();
   @override
   /// Builds the sign up screen.
   ///

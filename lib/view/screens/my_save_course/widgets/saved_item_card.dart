@@ -1,6 +1,5 @@
 import 'package:e_learning/core/utils/appColor.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 
 class SavedItemCard extends StatelessWidget {
   final String title;

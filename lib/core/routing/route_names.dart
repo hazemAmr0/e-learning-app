@@ -1,5 +1,5 @@
 class Routes {
- 
+   static const String Home = '/Home';
   static const String onboarding = '/onboarding';
  
  
@@ -17,6 +17,8 @@ class Routes {
   static const String lessonVideo = '/lessonVideo';
   static const String savedList = '/savedList';
    static const String saveEmpty = '/saveEmpty';
+     static const String navbar2 = '/navbar';
+
     
 
 

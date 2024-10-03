@@ -1,12 +1,13 @@
+
 import 'package:e_learning/core/utils/appColor.dart';
 import 'package:e_learning/view/screens/corse/widgets/category_section.dart';
 import 'package:e_learning/view/screens/corse/widgets/choose_your_course.dart';
-import 'package:e_learning/view/screens/corse/widgets/course_card.dart';
+import 'package:e_learning/view/screens/corse/widgets/choose_your_course_text.dart';
 import 'package:e_learning/view/screens/corse/widgets/custom_app_bar.dart';
 import 'package:e_learning/view/screens/corse/widgets/custom_search_bar.dart';
 import 'package:flutter/material.dart';
 
-import 'widgets/choose_your_course_text.dart';
+import 'widgets/course_card.dart';
 
 class CourseScreenBody extends StatelessWidget {
   const CourseScreenBody({super.key});
@@ -62,22 +63,22 @@ class CourseScreenBody extends StatelessWidget {
                     instructor: "Robertson Connie",
                     price: 190,
                     hours: 16,
-                    image: "assets/images/courseimage.png",
+                    image: "assets/images/courseimage.png", lessons: '    20', rating: '    4.5',
                   ),
-                  CourseCard(
-                    title: "Java Development",
-                    instructor: "Nguyen Shane",
-                    price: 190,
-                    hours: 16,
-                    image: "assets/images/courseimage.png",
-                  ),
-                  CourseCard(
-                    title: "Visual Design",
-                    instructor: "Bert Pullman",
-                    price: 250,
-                    hours: 14,
-                    image: "assets/images/courseimage.png",
-                  ),
+                  // CourseCard(
+                  //   title: "Java Development",
+                  //   instructor: "Nguyen Shane",
+                  //   price: 190,
+                  //   hours: 16,
+                  //   image: "assets/images/courseimage.png",
+                  // ),
+                  // CourseCard(
+                  //   title: "Visual Design",
+                  //   instructor: "Bert Pullman",
+                  //   price: 250,
+                  //   hours: 14,
+                  //   image: "assets/images/courseimage.png",
+                  // ),
                   // Add more CourseCard widgets as needed
                 ],
               ),

@@ -10,8 +10,8 @@ class customTextFormField extends StatelessWidget {
     super.key,
   });
   final String label;
-  String? Function(String?)? validator;
-  TextEditingController? controller;
+  final String? Function(String?)? validator;
+  final TextEditingController? controller;
   @override
   Widget build(BuildContext context) {
     return Padding(

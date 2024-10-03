@@ -1,7 +1,6 @@
 import 'package:e_learning/core/utils/appColor.dart';
 import 'package:e_learning/view/screens/my_save_course/widgets/recommended_button.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 
 import 'package:google_fonts/google_fonts.dart';
 

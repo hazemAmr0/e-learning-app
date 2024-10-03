@@ -15,7 +15,7 @@ class CourseCard extends StatelessWidget {
       required this.instructor,
       required this.price,
       required this.hours,
-      required this.image});
+      required this.image, required String lessons, required String rating});
 
   @override
   Widget build(BuildContext context) {

@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       ),
 
       onGenerateRoute: appRouter.generateRoute,
-      initialRoute: Routes.savedList,
+      initialRoute: Routes.Home,
       
       /////    for testing the screens   //
       ///initialRoute: Routes.courseOverview,

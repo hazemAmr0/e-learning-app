@@ -1,7 +1,6 @@
 import 'package:e_learning/core/routing/route_names.dart';
 import 'package:e_learning/core/utils/appColor.dart';
 import 'package:e_learning/view/screens/LoginAndRegister/sign_up_screen2.dart';
-import 'package:e_learning/view/screens/LoginAndRegister/signup_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

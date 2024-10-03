@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 
 class PasswordField extends StatefulWidget {
   PasswordField({super.key, this.controller, this.focusNode});
-  TextEditingController? controller;
-  FocusNode? focusNode;
+  final TextEditingController? controller;
+  final FocusNode? focusNode;
   bool _obscureText = false;
   @override
   PasswordFieldState createState() => PasswordFieldState();
